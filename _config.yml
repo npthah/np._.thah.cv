@@ -19,9 +19,9 @@ darkmode: true
 
 # Social links
 github_username:  npthah
-facebook_username: Phước Thành
+facebook_username: phuoc.thanh.314329
 instagram_username: np._.thah
-linkedin_username: Phước Thành
+linkedin_username: phước-thành-56930435a/
 orcid_username: 0009-0005-6108-3748
 
 # Additional icon links
@@ -45,77 +45,57 @@ about_profile_image: images/tom.jpg
 about_content: | # this will include new lines to allow paragraphs
  As a student at the **UEH University**, I am pursuing a dual major in **Investment Economics** and **Financial Technology (Fintech)**.
  
- I am deeply passionate about the intersection of <mark>technology and business</mark>, particularly how technology can optimize financial and investment decisions.
+ I am deeply passionate about the intersection of **technology** and **business**, particularly how technology can optimize financial and investment decisions.
  
- I am a <mark>highly responsible</mark> and eager learner, actively seeking new opportunities to challenge myself and apply my knowledge to real-world scenarios.
+ I am a highly responsible and eager learner, actively seeking new opportunities to challenge myself and apply my knowledge to real-world scenarios.
 
 content:
  - title: Education # --- EDUCATION SECTION ---
    layout: list
    content:
     - layout: top-right
-      title: University of Economics Ho Chi Minh City (UEH)
-      sub_title: Bachelor's Degree, Dual Major in Investment Economics & Fintech
-      caption: 2023 - 2028 (Expected)
-      quote: >
-        3rd Year Student, High-Quality Bachelor's Program.
-      description: | # Additional description
-        * Current GPA: 3.7
-        * Relevant Coursework: Portfolio Management, Financial Analysis, Applied Python Programming.
+      
 
 content:
   - title: Education # --- EDUCATION SECTION ---
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: University of Economics Ho Chi Minh City (UEH)
+        sub_title: Bachelor's Degree, Dual Major in Investment Economics & Fintech
+        caption: 2023 - 2028 (Expected)
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+        3rd Year Student, High-Quality Bachelor's Program.
+        description: | # Additional description
+          * Current GPA: 3.7
+          * Relevant Coursework: Portfolio Management, Financial Analysis, Applied Python Programming.
   
   - title: Experience # --- EXPERIENCE SECTION ---
     layout: list
     content:
     - layout: right
-      title: BELL Club (Business English for Learners and Lovers - UEH)
-      sub_title: Member, Finance & Design Teams
-      caption: (Sophomore Year)
+      title: BELL Club (UEH)
+      sub_title: HR Teams
       quote: >
         Actively participated in internal activities and club campaigns.
-      description: | # Role description
+      description: | 
         * **Finance Team:** Assisted in budgeting and financial planning for internal club activities.
         * **Design Team (Summer Volunteer Campaign 2024):** Led the design of posters, banners, and communication materials for the campaign.
 
-  - title: Projects & Activities # --- PROJECTS SECTION ---
-    layout: list
-    content:
-      - layout: left
-        border: weak # Adds a faint border below
-        title: Investment Portfolio Management Project (Coursework)
-        quote: >
-          Achieved an A+ grade for this major-specific project.
-        description: | # Project description
-          * Applied theoretical models for asset analysis and selection.
-          * Built and optimized a simulated investment portfolio, focusing on risk management.
-          * Utilized Python (Pandas) and Stata for data analysis and strategy back-testing.
+    - layout: left
+      title: Investment Portfolio Management Project (Coursework)
+      quote: >
+        Achieved an A+ grade for this major-specific project.
+      description: | 
+        * Applied theoretical models for asset analysis and selection.
+        * Built and optimized a simulated investment portfolio, focusing on risk management.
+        * Utilized Python and Stata for data analysis and strategy back-testing.
  
-      - layout: left
-        title: Academic Competitions
-        description: | # Description
-          * Participant in university-level competitions: **CELG**, **UEH Young Researcher**.
-          * Participant in the **Seed of Changes** competition, organized by the Institute of Innovation (UII).
+    - layout: right
+      title: Academic Competitions
+      description: | 
+        * Participant in university-level competitions: **CELG**, **UEH Young Researcher**.
+        * Participant in the **Seed of Changes** competition, organized by the Institute of Innovation (UII).
 
   - title: Certifications # --- CERTIFICATIONS SECTION ---
     layout: list
