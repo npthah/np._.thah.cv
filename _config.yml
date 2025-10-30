@@ -21,7 +21,7 @@ darkmode: true
 github_username:  npthah
 facebook_username: phuoc.thanh.314329
 instagram_username: np._.thah
-linkedin_username: phước-thành-56930435a/
+linkedin_username: npthah
 orcid_username: 0009-0005-6108-3748
 
 # Additional icon links
@@ -57,23 +57,19 @@ content:
       - layout: top-right
         title: University of Economics Ho Chi Minh City (UEH)
         sub_title: Bachelor's Degree, Dual Major in Investment Economics & Fintech
-        caption: 2023 - 2028 (Expected)
-        quote: >
-          3rd Year Student, High-Quality Bachelor's Program.
-        description: | # Additional description
-          * Current GPA: 3.7
-          * Relevant Coursework: Portfolio Management, Financial Analysis, Applied Python Programming.
+        caption: 3rd Year Student, High-Quality Bachelor's Program.
+          
   
   - title: Experience # --- EXPERIENCE SECTION ---
     layout: text
     content: |
-      **BELL Club (UEH)
-      Actively participated in internal activities and club campaigns.
+      **BELL Club (UEH)**
+      *Actively participated in internal activities and club campaigns.
       * **Finance Team:** Assisted in budgeting and financial planning for internal club activities.
       * **Design Team (Summer Volunteer Campaign 2024):** Led the design of posters, banners, and communication materials for the campaign.
 
       **Investment Portfolio Management Project (Coursework)**
-      Achieved an A+ grade for this major-specific project. 
+      *Achieved an A+ grade for this major-specific project. 
       * Applied theoretical models for asset analysis and selection.
       * Built and optimized a simulated investment portfolio, focusing on risk management.
       * Utilized Python and Stata for data analysis and strategy back-testing.
@@ -88,7 +84,7 @@ content:
       **IELTS 6.5**
       * Valid international English language proficiency certificate.
 
-      **MOS (Microsoft Office Specialist)
+      **MOS (Microsoft Office Specialist)**
       * Certification for expert-level skills in Microsoft Office (Word, Excel, PowerPoint).
 
   - title: Skills # --- SKILLS SECTION ---
@@ -105,7 +101,7 @@ content:
       * High Responsibility, Eager to Learn.
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: thank you for reading
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
