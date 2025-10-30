@@ -41,96 +41,64 @@ orcid_username: 0009-0005-6108-3748
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/landscape-trees.jpg)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
  Chào bạn! Tôi là Thành, sinh viên năm 3 tại **Đại học Kinh tế TP.HCM (UEH)**, chuyên ngành Hệ thống Thông tin Quản lý.
  
-  Tôi có niềm đam mê kết nối giữa công nghệ và kinh doanh, đặc biệt là cách <mark>phân tích dữ liệu</mark> có thể giúp doanh nghiệp đưa ra quyết định chiến lược. Tôi đang trong quá trình học tập và trang bị các kỹ năng về <mark>Python</mark>, <mark>SQL</mark> và các công cụ trực quan hóa.
+ Tôi có niềm đam mê kết nối giữa công nghệ và kinh doanh, đặc biệt là cách <mark>phân tích dữ liệu</mark> có thể giúp doanh nghiệp đưa ra quyết định chiến lược. Tôi đang trong quá trình học tập và trang bị các kỹ năng về <mark>Python</mark>, <mark>SQL</mark> và các công cụ trực quan hóa.
 
-  Tôi là người ham học hỏi, có tinh thần trách nhiệm và mong muốn tìm kiếm cơ hội thực tập để áp dụng kiến thức vào các dự án thực tế.
+ Tôi là người ham học hỏi, có tinh thần trách nhiệm và mong muốn tìm kiếm cơ hội thực tập để áp dụng kiến thức vào các dự án thực tế.
 
-ccontent:
-  - title: Projects # BẮT ĐẦU PHẦN DỰ ÁN CỦA BẠN
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Thêm đường viền mờ bên dưới
-        title: Dự án 1: Phân tích Dữ liệu Bán lẻ (Đồ án môn học)
-        # link: # (Link đến trang web deploy dự án nếu có)
-        # link_text: Xem trang web dự án
-        additional_links:
-          - title:  Xem mã nguồn trên GitHub
-            icon: fab fa-github
-            url: https://github.com/npthah/ten-du-an-1 # (Thay link GitHub của bạn)
-        quote: >
-          Sử dụng Python (Pandas, Matplotlib) để phân tích bộ dữ liệu bán hàng và tìm ra xu hướng tiêu dùng.
-        description: | # Mô tả chi tiết dự án
-          * Thu thập, tiền xử lý và làm sạch dữ liệu từ tệp CSV.
-          * Thực hiện phân tích thống kê mô tả để xác định các sản phẩm bán chạy nhất, khung giờ mua sắm cao điểm.
-          * Trực quan hóa dữ liệu bằng biểu đồ để đưa ra đề xuất cải thiện chiến lược kinh doanh.
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      - layout: left
-        title: Dự án 2: Website CLB Sinh viên (Dự án cá nhân)
-        additional_links:
-          - title:  Xem mã nguồn trên GitHub
-            icon: fab fa-github
-            url: https://github.com/npthah/ten-du-an-2 # (Thay link GitHub của bạn)
-        quote: >
-          Xây dựng trang web tĩnh (static website) giới thiệu và quản lý sự kiện cho CLB.
-        description: | # Mô tả chi tiết dự án
-          * Thiết kế giao diện người dùng (UI/UX) cơ bản bằng Figma.
-          * Xây dựng front-end bằng HTML, CSS và JavaScript đơn giản.
-          * Giúp tăng 20% lượng đăng ký tham gia sự kiện so với việc dùng Google Forms.
-
-  - title: Experience # BẮT ĐẦU PHẦN KINH NGHIỆM
-    layout: list
-    content:
-      - layout: right
-        title: Công ty ABC (Ví dụ)
-        sub_title: Thực tập sinh Phân tích Dữ liệu (Part-time)
-        caption: Tháng 6, 2025 - Hiện tại
-        link: https://www.cong-ty-vi-du.com
-        quote: >
-          Công ty công nghệ chuyên cung cấp giải pháp phần mềm CRM.
-        description: | # Mô tả công việc
-          * Hỗ trợ team Business Intelligence (BI) trong việc tổng hợp báo cáo hàng tuần.
-          * Sử dụng SQL để truy vấn dữ liệu thô và Excel để trực quan hóa cơ bản.
-          * Học hỏi quy trình làm việc chuyên nghiệp và cách xử lý dữ liệu lớn.
-      
-      - layout: right
-        title: Câu lạc bộ Kỹ năng XYZ - UEH
-        sub_title: Trưởng ban Truyền thông
-        caption: Tháng 9, 2024 - Hiện tại
-        description: | # Mô tả công việc
-          * Lên kế hoạch nội dung, quản lý fanpage Facebook và Instagram của CLB.
-          * Tổ chức các sự kiện, workshop hàng tháng thu hút hàng trăm sinh viên tham gia.
-          * Phối hợp với các ban khác để đảm bảo tiến độ và thành công của chương trình.
-
-  - title: Education # BẮT ĐẦU PHẦN HỌC VẤN
-    layout: list
-    content:
-      - layout: top-right
-        title: Đại học Kinh tế TP.HCM (UEH)
-        sub_title: Cử nhân Hệ thống Thông tin Quản lý
-        caption: 2023 - 2027 (Dự kiến)
-        quote: >
-          Chuyên ngành Phân tích Dữ liệu Kinh doanh (Business Analytics).
-        description: | # Mô tả thêm
-          * GPA hiện tại: 8.5/10 (Ví dụ)
-          * Các môn học tiêu biểu: Cơ sở dữ liệu, Lập trình Python, Thống kê ứng dụng, Phân tích nghiệp vụ.
-
-  - title: Skills # BẠN CÓ THỂ ĐỔI TÊN SECTION NÀY
-    layout: text
-    content: | # Điền các kỹ năng hoặc sở thích
-      **Kỹ năng cứng (Hard Skills):**
-      * Ngôn ngữ lập trình: Python (Pandas, NumPy), SQL
-      * Công cụ: Microsoft Excel (Nâng cao), Power BI (Cơ bản)
-      * Khác: Git, GitHub, HTML/CSS
- 
-      **Kỹ năng mềm (Soft Skills):**
-      * Làm việc nhóm & Giao tiếp
-      * Tư duy phản biện
-      * Quản lý thời gian
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
@@ -138,24 +106,24 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme # (Giữ nguyên dòng này để host trên GitHub)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
 
 exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
