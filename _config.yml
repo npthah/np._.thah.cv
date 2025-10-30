@@ -41,19 +41,33 @@ orcid_username: 0009-0005-6108-3748
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/tom.jpg
 about_content: | # this will include new lines to allow paragraphs
- Chào bạn! Tôi là Thành, sinh viên năm 3 tại **Đại học Kinh tế TP.HCM (UEH)**, chuyên ngành Hệ thống Thông tin Quản lý.
+ As a student at the **UEH University**, I am pursuing a dual major in **Investment Economics** and **Financial Technology (Fintech)**.
  
- Tôi có niềm đam mê kết nối giữa công nghệ và kinh doanh, đặc biệt là cách <mark>phân tích dữ liệu</mark> có thể giúp doanh nghiệp đưa ra quyết định chiến lược. Tôi đang trong quá trình học tập và trang bị các kỹ năng về <mark>Python</mark>, <mark>SQL</mark> và các công cụ trực quan hóa.
-
- Tôi là người ham học hỏi, có tinh thần trách nhiệm và mong muốn tìm kiếm cơ hội thực tập để áp dụng kiến thức vào các dự án thực tế.
+ I am deeply passionate about the intersection of <mark>technology and business</mark>, particularly how technology can optimize financial and investment decisions.
+ 
+ I am a <mark>highly responsible</mark> and eager learner, actively seeking new opportunities to challenge myself and apply my knowledge to real-world scenarios.
 
 content:
-  - title: Projects # Title for the section
+ - title: Education # --- EDUCATION SECTION ---
+   layout: list
+   content:
+    - layout: top-right
+      title: University of Economics Ho Chi Minh City (UEH)
+      sub_title: Bachelor's Degree, Dual Major in Investment Economics & Fintech
+      caption: 2023 - 2028 (Expected)
+      quote: >
+        3rd Year Student, High-Quality Bachelor's Program.
+      description: | # Additional description
+        * Current GPA: 3.7
+        * Relevant Coursework: Portfolio Management, Financial Analysis, Applied Python Programming.
+
+content:
+  - title: Education # --- EDUCATION SECTION ---
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-right
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Project name
@@ -70,36 +84,64 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+  
+  - title: Experience # --- EXPERIENCE SECTION ---
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+    - layout: right
+      title: BELL Club (Business English for Learners and Lovers - UEH)
+      sub_title: Member, Finance & Design Teams
+      caption: (Sophomore Year)
+      quote: >
+        Actively participated in internal activities and club campaigns.
+      description: | # Role description
+        * **Finance Team:** Assisted in budgeting and financial planning for internal club activities.
+        * **Design Team (Summer Volunteer Campaign 2024):** Led the design of posters, banners, and communication materials for the campaign.
+
+  - title: Projects & Activities # --- PROJECTS SECTION ---
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        border: weak # Adds a faint border below
+        title: Investment Portfolio Management Project (Coursework)
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Achieved an A+ grade for this major-specific project.
+        description: | # Project description
+          * Applied theoretical models for asset analysis and selection.
+          * Built and optimized a simulated investment portfolio, focusing on risk management.
+          * Utilized Python (Pandas) and Stata for data analysis and strategy back-testing.
+ 
+      - layout: left
+        title: Academic Competitions
+        description: | # Description
+          * Participant in university-level competitions: **CELG**, **UEH Young Researcher**.
+          * Participant in the **Seed of Changes** competition, organized by the Institute of Innovation (UII).
+
+  - title: Certifications # --- CERTIFICATIONS SECTION ---
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: IELTS 6.5
+        description: |
+          Valid international English language proficiency certificate.
+      - layout: left
+        title: MOS (Microsoft Office Specialist)
+        description: |
+          Certification for expert-level skills in Microsoft Office (Word, Excel, PowerPoint).
+
+  - title: Skills # --- SKILLS SECTION ---
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+    content: | # Your skills
+      **Hard Skills:**
+      * Languages/Software: **Python**, **Stata**, **Adobe Photoshop**.
+      * Finance: Financial Statement Analysis, Portfolio Management.
+      * Office Suite: Proficient in Microsoft Office (Advanced Excel).
+ 
+      **Soft Skills:**
+      * Communication & Presentation (Good).
+      * Critical Thinking.
+      * High Responsibility, Eager to Learn.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
